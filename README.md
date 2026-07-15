@@ -4,9 +4,9 @@ This project was a built by a group of 4 students including me; in where the con
 
 ## 📦 Technologies
 > React  
-> JavaScript
-> Laravel
-> crop-image Library
+> JavaScript  
+> Laravel  
+> crop-image Library  
 > canvas Library  
 
 ## ✨ Features
