@@ -1,4 +1,4 @@
-# 🖼 Triple O: Portfolio
+# 🖼 Triple O: Portfolio.
 A multi-page complex website made for my university's fourth year project, to create canvases that displays your profession acting as a portfolio and a showcase for your work, using **React** as the <ins>Frontend</ins>, and **Laravel** as the <ins>Backend</ins>.  
 This project was a built by a group of 4 students including me; in where the concepts of React were still fresh in my head; as this was one of the first projects that helped me start applying my knowledge in a practical way.  
 
