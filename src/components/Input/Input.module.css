@@ -1,0 +1,16 @@
+.inputField{
+    color: #1a1a1a;
+    background-color: white;
+    box-shadow: rgba(26, 26, 26, 0.25) 0px 2px 4px;
+}
+
+.label{
+    color: #1a1a1a;
+    font-size: 0.75rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.TextArea{
+    border-radius: 0.75rem;
+}

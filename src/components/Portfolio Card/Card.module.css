@@ -1,0 +1,27 @@
+.container{
+    cursor: pointer;
+    transition : all .3s ease;
+
+    box-shadow: rgba(26, 26, 26, 0.5) 2px 3px 5px;
+}
+
+.container:hover{
+    transform: translateY(-0.5rem);
+    animation: floating 10s infinite ease-in-out;
+}
+
+.thumbnail{
+    transition: all 0.3s ease;
+}
+
+.thumbnail:hover{
+    border-radius: 0.5rem;
+    transform: scale(1.1);
+}
+
+@keyframes floating {
+    0% { transform: translate(0%, 0%); }
+    25% { transform: translate(0.25%, 0.25%); }
+    50% { transform: translate(-0.25%, -0.25%); }
+    100% { transform: translate(0%, 0%); }
+}

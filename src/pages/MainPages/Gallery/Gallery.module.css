@@ -1,0 +1,127 @@
+.container {
+  padding: 1.5rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+
+  font-family: 'Shadows Into Light Two', 'Times New Roman', serif;
+}
+
+.heading>span{
+  font-family: 'Special Gothic Expanded One', Arial;
+}
+
+.subtext {
+  color: var(--gry-color);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.wrapper {
+  background-color: transparent;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.uploadButton,
+.deleteButton {
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.uploadButton {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.uploadButton:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.deleteButton:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.imageGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+
+.imageItem {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border: 2px solid transparent;
+
+  box-shadow: rgba(26, 26, 26, 0.5) 2px 3px 5px;
+}
+
+.imageItem:hover {
+  transform: scale(1.02);
+}
+
+.imageItem.selected {
+  border-color: var(--secondary-color);
+}
+
+.imagePreview {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.checkbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  width: 20px;
+  height: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pagination button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+}

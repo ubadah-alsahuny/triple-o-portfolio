@@ -1,0 +1,17 @@
+.buttons{
+    color: white;
+    background-color: var(--secondary-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    margin-right: 2rem;
+    border: 2px solid var(--secondary-color);
+
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.buttons:hover{
+    color: var(--secondary-color);
+    background-color: white;
+    border: 2px solid var(--secondary-color);
+}

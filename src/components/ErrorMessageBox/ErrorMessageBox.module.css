@@ -1,0 +1,16 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    animation: slideInAndOut 5s ease-in-out ;
+}
+
+.visible{
+    background: #480d51;
+}
+@keyframes slideInAndOut {
+    0%{  right: -100%; }
+    25%{  right: 20px; }
+    100% { right: 20px; }
+}

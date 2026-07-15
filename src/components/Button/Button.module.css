@@ -1,0 +1,18 @@
+.button {
+    background: linear-gradient(to top, #06b6d4, #3b82f6);
+    outline: none;
+    transition: transform 0.3s ease;
+    border-radius:0.5rem;
+    background-size: 100% 100%;
+    animation: buttonGradient 5s ease-in-out infinite;
+}
+
+.button:hover {
+    transform: translateY(-3px) scale(1.01);
+}
+
+@keyframes buttonGradient{
+    0% {background-size: 100% 100%}
+    50% {background-size: 500% 500%}
+    100% {background-size: 100% 100%}
+}

@@ -1,0 +1,12 @@
+.button {
+    background: linear-gradient(to top, #06b6d4, #3b82f6);
+    outline: none;
+
+    background-size: 100% 100%;
+
+    transition: padding 0.3s ease;
+}
+
+.button:hover {
+    padding: 0.8rem 2rem;
+}

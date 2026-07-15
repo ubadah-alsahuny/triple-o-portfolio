@@ -1,0 +1,37 @@
+.container{
+    background-color: transparent;
+    border-radius: 0.2rem;
+
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+.container:hover{
+    background-color: rgba(26, 26, 26, 0.1);
+}
+
+.main{
+    font-weight: 500;
+    font-size: 0.9rem;
+
+    color: rgba(26, 86, 219, 0.8);
+    background-color: #D0E5FF;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.title{
+    width: 60%;
+
+    font-size: 0.95rem;
+    font-weight: 450;
+}
+
+.other{
+    font-size: 0.85rem;
+    color: rgba(26, 26, 26, 0.6);
+}

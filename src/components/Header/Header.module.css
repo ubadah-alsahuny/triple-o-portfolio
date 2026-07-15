@@ -1,0 +1,21 @@
+.header{
+    background: linear-gradient(90deg, #fff 0%, #6CB4EE 50%, #2A52BE 100%);
+}
+
+.title{
+    color: white;
+    -webkit-text-stroke: 0.5px #1a1a1a;
+
+    font-size: 1.5rem;
+    font-style: italic;
+
+    cursor: pointer;
+
+    transition: transform 0.5s ease, text-shadow 0.5s ease, color 0.25s ease, -webkit-text-stroke 0.3s ease;
+}
+
+.title:hover{
+
+    transform: scale(0.98);
+    text-shadow: #1a1a1a 0 0 2px;
+}

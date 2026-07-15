@@ -1,0 +1,44 @@
+.background{
+    background: linear-gradient(180deg, #fff 0%, #6CB4EE 50%, #2A52BE 100%);
+    background-size: 200% 200%;
+    animation: colorRotation 25s ease-in-out infinite;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+
+    font-family: 'Special Gothic Expanded One', Arial;
+}
+
+.subtitle{
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+.image{
+    box-shadow: #fcfcfd 0 0 500px 1px;
+    scale: 1;
+    animation: imageFloat 20s infinite ease-in-out;
+}
+
+.logo{
+    box-shadow: #fcfcfd 1px 1px 10px 1px;
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover{
+    box-shadow: #a9cffd 1px 1px 10px 1px    ;
+}
+
+.aap{
+    font-size: 0.9rem;
+}
+
+@keyframes imageFloat {
+    0% { transform: translate(0%, 0%); }
+    25% { transform: translate(0.25%, 0.25%); }
+    50% { transform: translate(-0.25%, -0.25%); }
+    100% { transform: translate(0%, 0%); }
+}

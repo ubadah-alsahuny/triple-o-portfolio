@@ -1,0 +1,81 @@
+*{
+    font-family: "Franklin Gothic Heavy",sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    z-index: 2;
+}
+
+.avatar {
+    color: white;
+    background-color: var(--secondary-color);
+    padding-top: 1rem;
+    border-radius: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.avatar:hover{
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+.username{
+    font-size: 1.1rem;
+}
+
+.username:hover {
+    text-decoration: underline;
+}
+
+.searchBox {
+    font-size: 1.2rem;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.searchSpan{
+    background-color: var(--boldgry-color);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.searchSpan:hover {
+    background-color: var(--gry-color);
+}
+
+.navItem {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    position: relative;
+
+    transition: background 0.3s ease-in-out;
+}
+
+.navItem:hover {
+    background-color: var(--boldgry-color);
+    border-radius: 11px;
+}
+
+.logoutBtn {
+    background-color: transparent;
+    text-align: left;
+}
+.logoutBtn:hover {
+    background-color: var(--primary-color);
+    border-radius: 11px;
+}

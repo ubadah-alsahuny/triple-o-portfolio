@@ -1,0 +1,43 @@
+.item{
+    margin-right: 2rem;
+    padding: 0.25rem 1rem;
+
+    color: white;
+    background: linear-gradient(-80deg, #4b9fea, #2563eb);
+
+    font-size: 1rem;
+
+    border: transparent;
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    padding: 0.25rem 1.5rem;
+
+    box-shadow: rgba(10, 83, 190, 0.25) 0 0 5px 1px;
+
+    z-index: 0;
+}
+
+.O{
+    font-family: 'Shadows Into Light Two', 'Times New Roman', serif;
+    font-size: 2rem;
+
+    margin-bottom: -2rem;
+    text-shadow: rgb(255, 255, 255) 0 20px 7px;
+}
+
+.main2{
+    font-size: 4rem;
+    font-family: 'Special Gothic Expanded One', Arial;
+}
+
+.main{
+    background: linear-gradient(-80deg, #c2e9f9, #81c7f5, #4b9fea, #2563eb, #1e3a8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
