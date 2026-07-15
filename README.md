@@ -1,14 +1,16 @@
 # 🖼 Triple O: Portfolio
-A one-page website for daily weather updates based in the USA, using **React** as the <ins>Frontend</ins>, and a **Remote Public API** as the <ins>Data Grabber</ins>.  
-I built this project as a continuation of my Hands-On-Practice journey; in where I learned about more concepts that were ambigious to me revoloving around (API fetching, the correct way of handling errors and successes, smooth responsive design, and more...).  
+A multi-page complex website made for my university's fourth year project, to create canvases that displays your profession acting as a portfolio and a showcase for your work, using **React** as the <ins>Frontend</ins>, and **Laravel** as the <ins>Backend</ins>.  
+This project was a built by a group of 4 students including me; in where the concepts of React were still fresh in my head; as this was one of the first projects that helped me start applying my knowledge in a practical way.  
 
 ## 📦 Technologies
 > React  
-> TypeScript  
-> [Meteocons. Animated Weather Icons](https://github.com/basmilius/meteocons)  
+> JavaScript
+> Laravel
+> crop-image Library
+> canvas Library  
 
 ## ✨ Features
-Here is what Weather Dashboard has to offer for the user:
+Here is what Triple O: Portfolio has to offer for the user:
 - Simple Weather Condition Information: The user can easily view the entire week's (day and night) weather conditions displayed in simple terms and visuals.  
 * Detailed Weather Condition Information: Another option is the ability to view a more detailed forecast of a certain day of the week only by hovering over its weather card, which will display a Square of Information containing them.  
 + User Comfort with Measurments Units: As fetched from the API, the weather temperature is arriving in Fahrenheit. However, not all users may be comfortable or common with this measurment unit; that's why the addition of a button that transforms the temperature value from Fahrenheit to Celsius got added.
@@ -38,7 +40,7 @@ The API that I was using didn't have a direct field indicating the weather is sh
 * More detailed information about the weather, such as (Wind, Propability of rain, etc...).
 + A menu of fields to change the area or place that its weather needs to be fetched.  
 
-## 🖼 Image of Website:  
+## 🖼 Images of Website:  
 <img width="1366" height="768" alt="Landing" src="https://github.com/user-attachments/assets/aad66222-08b5-4a28-95e4-7c3bd9202b68" />
 <img width="1366" height="768" alt="Canvas Example" src="https://github.com/user-attachments/assets/fa8a8b2b-635e-44b8-bad4-fdbf62527b47" />
 <img width="1366" height="768" alt="Profile" src="https://github.com/user-attachments/assets/49c22ac5-16e7-4b64-a51b-acae817fc8d2" />
